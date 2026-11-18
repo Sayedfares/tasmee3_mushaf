@@ -1,12 +1,8 @@
-# tasmee3-mushaf
+# tasmee3_mushaf
 
-SVG pages of the Madinah (King Fahd Complex) mushaf, one file per page
-(`ligature-basd-svg/001.svg` ... `604.svg`), used by the **Faris** Quran
-recitation app: https://sayedfares.github.io/tasmee3/
+Mushaf data for the Faris (فارس) recitation app, downloaded on demand.
 
-Each word and ayah mark is a group tagged with its surah / ayah / word index
-(`data-surah`, `data-aya`, `data-word-index-in-ayah`), which the app uses to
-follow the reader word by word.
+- `layouts/` — line layouts (page → lines → `[surah, ayah, firstWord, lastWord]` runs, `"h<surah>"` banner, `"b"` basmala) built from the QUL line-layout databases by `build_layouts.py`. `layouts/index.json` lists them. The app downloads the ones the user picks.
+- `data/` — word-by-word and ayah-by-ayah Quran text in several scripts (Hafs, tajweed, Digital Khatt, Nastaleeq, QPC v4, Warsh, imlaei/uthmani simple), keyed `surah:ayah:word` (or `surah:ayah`). The two `*images*` files link to word images hosted on static-cdn.tarteel.ai.
 
-The files are published as received by the repository owner. Check the
-original source for the terms of use before reusing them elsewhere.
+Source: QUL (Quranic Universal Library) data. Each belongs to its authors and publishers.

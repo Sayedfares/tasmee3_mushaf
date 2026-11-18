@@ -1,0 +1,62 @@
+[
+ {
+  "file": "data/black-images-word-by-word.json",
+  "name": "صور الكلمات (أسود)",
+  "mb": 12.8
+ },
+ {
+  "file": "data/digital-khatt-v2.json",
+  "name": "الخط الرقمي QPC v2",
+  "mb": 8.9
+ },
+ {
+  "file": "data/imlaei-script-ayah-by-ayah.json",
+  "name": "الإملائي — آية آية",
+  "mb": 1.7
+ },
+ {
+  "file": "data/imlaei-simple.json",
+  "name": "الإملائي المبسّط",
+  "mb": 1.2
+ },
+ {
+  "file": "data/qpc-hafs-tajweed.json",
+  "name": "حفص بعلامات التجويد",
+  "mb": 11.0
+ },
+ {
+  "file": "data/qpc-hafs-word-by-word.json",
+  "name": "حفص كلمة كلمة",
+  "mb": 8.8
+ },
+ {
+  "file": "data/qpc-nastaleeq.json",
+  "name": "نستعليق",
+  "mb": 8.9
+ },
+ {
+  "file": "data/qpc-v4.json",
+  "name": "QPC v4",
+  "mb": 7.8
+ },
+ {
+  "file": "data/qpc-warsh-script-wbw.json",
+  "name": "رواية ورش",
+  "mb": 7.9
+ },
+ {
+  "file": "data/tajweed-images-old.json",
+  "name": "صور الكلمات (تجويد)",
+  "mb": 12.8
+ },
+ {
+  "file": "data/uthmani-simple.db",
+  "name": "uthmani-simple.db",
+  "mb": 2.9
+ },
+ {
+  "file": "data/uthmani-simple.json",
+  "name": "العثماني المبسّط",
+  "mb": 1.2
+ }
+]
